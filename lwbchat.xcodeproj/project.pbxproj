@@ -15,6 +15,7 @@
 		04AC1E471C7852F5001B59EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC1E451C7852F5001B59EE /* LaunchScreen.storyboard */; };
 		04AC1E521C7852F5001B59EE /* lwbchatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC1E511C7852F5001B59EE /* lwbchatTests.m */; };
 		04AC1E5D1C7852F5001B59EE /* lwbchatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC1E5C1C7852F5001B59EE /* lwbchatUITests.m */; };
+		04AC1E6C1C785349001B59EE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 04AC1E6B1C785349001B59EE /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		04AC1E581C7852F5001B59EE /* lwbchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lwbchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AC1E5C1C7852F5001B59EE /* lwbchatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lwbchatUITests.m; sourceTree = "<group>"; };
 		04AC1E5E1C7852F5001B59EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AC1E6B1C785349001B59EE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		04AC1E371C7852F5001B59EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04AC1E6A1C785320001B59EE /* resources */,
 				04AC1E381C7852F5001B59EE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +141,14 @@
 				04AC1E5E1C7852F5001B59EE /* Info.plist */,
 			);
 			path = lwbchatUITests;
+			sourceTree = "<group>";
+		};
+		04AC1E6A1C785320001B59EE /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				04AC1E6B1C785349001B59EE /* images */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC1E6C1C785349001B59EE /* images in Resources */,
 				04AC1E471C7852F5001B59EE /* LaunchScreen.storyboard in Resources */,
 				04AC1E441C7852F5001B59EE /* Assets.xcassets in Resources */,
 				04AC1E421C7852F5001B59EE /* Main.storyboard in Resources */,
@@ -412,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lwbchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwb.lwbchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lwbchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lwb.lwbchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
